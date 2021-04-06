@@ -4,9 +4,9 @@ learning from the [the-flask-mega-tutorial](https://blog.miguelgrinberg.com/post
 # setting up the env
 ## create virtual env
 ```bash
-python3 -m venv venv
+python3.7 -m venv flask_env
 # connect to virtual env
-source venv/bin/activate
+source flask_env/bin/activate
 ```
 
 ## installing packages
