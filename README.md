@@ -15,3 +15,11 @@ pip install -r requirements.txt
 # if you have installed new packages and need to save them, you can use the following
 pip freeze > requirements.txt
 ```
+
+# Running the server
+```bash
+# Flask needs to be told how to import it, by setting the FLASK_APP environment variable
+export FLASK_APP=microblog.py
+# start server
+flask run
+```
