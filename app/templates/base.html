@@ -2,12 +2,12 @@
     <head>
         {% if title %}
         <title>{{ title }} microblog </title>
-        {% else %} 
+        {% else %}
         <title> home </title>
         {% endif %}
     </head>
     <body>
-        <div>blog: 
+        <div>blog:
             <a href="{{ url_for('index') }}">home</a>
             <a href="{{ url_for('login') }}">login</a>
         </div>
