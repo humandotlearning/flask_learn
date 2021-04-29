@@ -1,2 +1,8 @@
+# flask env file
 flask_env/*
+
+# python binaries created automatically
 *.pyc
+
+# vscode specific file
+.vscode/*
